@@ -6,10 +6,10 @@ Caltech-UCSD Birds 200 (CUB-200) is an image dataset with photos of 200 bird spe
 
 >> For executing the python script, get into the folder where it resides and run the following command :
 
-python train.py --dataset dataset --model pokedex.model --labelbin lb.pickle
+--> python train.py --dataset dataset --model pokedex.model --labelbin lb.pickle
 
 >> For executing the deep learning script on spark, get into the folder where it resides and run the following command :
 
- spark-submit birds_spark.py --dataset dataset --model pokedex.model --labelbin lb.pickle
+ --> spark-submit birds_spark.py --dataset dataset --model pokedex.model --labelbin lb.pickle
 
 
